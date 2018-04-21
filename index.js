@@ -22,7 +22,7 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-  return [name, ...drivers.splice(0)];
+  return [name, ...drivers.splice()];
 }
 
 function removeLastDriver(){
