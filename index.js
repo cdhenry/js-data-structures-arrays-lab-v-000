@@ -2,9 +2,9 @@
 const drivers = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendDriver(name){
-  name.push("Ralph");
+  drivers.push(name);
 }
 
 function destructivelyPrependDriver(name){
-  name.unshift("Ralph");
+  drivers.unshift(name);
 }
